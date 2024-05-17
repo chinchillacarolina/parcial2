@@ -1,0 +1,18 @@
+<div *ngIf="selected">
+    <app-Reserva-detail [reservaDetail]="selectedReserva"></app-Reserva-detail>
+  </div>
+  <br>
+  <br>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-3" *ngFor="let reserva of reservas">
+        <div class="card" (click)="onSelected(reserva)" >
+          <div class="card-body">
+            <h5 class="card-title"> Reserva de: {{ reserva.monitoria.area.nombre }}</h5>
+            <p class="card-text">Fecha: {{ reserva.fechaReserva}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

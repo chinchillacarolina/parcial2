@@ -1,0 +1,11 @@
+.card {
+    border-radius: 10px; /* Bordes redondeados para la tarjeta */
+  }
+  
+  .card-body dl dt {
+    color: #007bff; /* Color azul para los términos (dt) */
+  }
+  
+  .card-body dl dd {
+    margin-bottom: 8px; /* Espacio inferior entre las descripciones (dd) */
+  }

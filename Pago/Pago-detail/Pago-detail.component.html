@@ -1,0 +1,27 @@
+<div class="container-fluid">
+   
+    <p class="h3 p-3">{{ reservaDetail.usuario.nombre }}</p>
+  
+  
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <dl class="row">
+              <dt class="col-sm-4"><strong>Fecha reserva:</strong></dt>
+              <dd class="col-sm-8">{{ reservaDetail.fechaReserva }}</dd>
+  
+              <dt class="col-sm-4"><strong>Fecha realización:</strong></dt>
+              <dd class="col-sm-8">{{ reservaDetail.fechaRealizacion }}</dd>
+  
+              <dt class="col-sm-4"><strong>Monitoría:</strong></dt>
+              <dd class="col-sm-8">{{ reservaDetail.monitoria.area.nombre }} </dd>
+  
+        
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

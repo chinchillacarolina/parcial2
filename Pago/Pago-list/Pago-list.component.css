@@ -1,0 +1,13 @@
+/* Estilo para tarjetas */
+.card {
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Borde para la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  /* Efecto de hover para tarjetas */
+  .card:hover {
+    transform: translateY(-5px); /* Desplazamiento hacia arriba al hacer hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
